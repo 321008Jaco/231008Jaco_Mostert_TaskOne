@@ -8,10 +8,6 @@ let Age = 20;
 let Subject = "Development";
 
 console.log(text)
-console.log(Name)
-console.log(Surname)
-console.log(Age)
-console.log(Subject)
 
 let message = "Hello, my name is " + Name + " " + Surname + ". I am " + Age + " years old and I am studying " + Subject + ".";
 
@@ -19,7 +15,8 @@ console.log(message)
 
 
 
-
+console.log(" ")
+console.log("Exercise Two")
 
 let numOne = "4";
 let numTwo = "34";
@@ -37,7 +34,8 @@ console. log(end)
 
 
 
-
+console.log(" ")
+console.log("Exercise Three")
 
 let Timmy = "R10";
 let Susan = "R25";
@@ -52,9 +50,38 @@ console.log(answ)
 
 
 
+console.log(" ")
+console.log("ExerciseFour")
 
+let AverageBefore = "0";
+let AverageUpdate = "0";
+let JohnMark = "60";
+let TimMark = "45";
+let AlfieMark = "80";
+let GwenMark = "55";
+const AdditionalMarks = "7";
+const TotalStudents = "4";
+const TotalMarks = "100";
+let TotalStudentMarks = "0";
 
-let John = "60";
-let Tim = "45";
-let Alfie = "80";
-let Gwen = "55";
+let sum = parseInt(JohnMark) + parseInt(TimMark) + parseInt(AlfieMark) + parseInt(GwenMark);
+
+AverageBefore = (sum + TotalStudents * TotalMarks);
+console.log(AverageBefore)
+
+console.log(" ")
+console.log("Updated Score")
+
+JohnMark = 67;
+TimMark = 52;
+AlfieMark = 87;
+GwenMark = 62;
+
+let FinalSum = parseInt(JohnMark) + parseInt(TimMark) + parseInt(AlfieMark) + parseInt(GwenMark);
+
+AverageUpdate = (FinalSum + TotalStudents * TotalMarks);
+
+console.log(AverageUpdate)
+
+console.log(" ")
+console.log("End")
